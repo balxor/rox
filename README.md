@@ -1,4 +1,4 @@
-# ROX Refine Reverse Engineering Notes
+# XOR Refine Reverse Engineering Notes
 
 This repository documents a client-side static reverse engineering pass focused on the refine system in ROX.
 
