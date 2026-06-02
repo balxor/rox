@@ -6,28 +6,28 @@ Author: **Kenshin | Darkside TH | Odin Valhalla | ROXLab Researcher**
 
 ---
 
-## Notes
+## Purpose
 
-This folder contains helper scripts used to document and analyze client-side AssetBundle files.
+The `/scripts` folder contains helper scripts used to prepare, map, and organize client-side files for documentation and static analysis.
 
-The scripts are designed for:
+These scripts are used to:
 
-* listing physical `.bundle` files from a client directory;
-* resolving hashed bundle filenames into logical/original bundle names;
-* copying selected refine-related bundles into readable filenames;
-* preparing files for documentation and research.
+* export a list of physical `.bundle` files from the client folder;
+* resolve hashed bundle filenames into logical/original bundle names;
+* copy selected refine-related bundles into readable filenames;
+* prepare source files for research documentation.
 
-These scripts do not patch, modify, bypass, inject into, or manipulate the game client.
+These scripts do not modify the game client, patch binaries, manipulate runtime behavior, bypass protection, or interact with servers.
 
 ---
 
 ## Script List
 
-| Script                             | Language   | Purpose                                                                  |
-| ---------------------------------- | ---------- | ------------------------------------------------------------------------ |
-| `export_bundle_inventory.ps1`      | PowerShell | Exports all physical `.bundle` files into a CSV inventory                |
-| `resolve_bundle_names.py`          | Python     | Resolves hashed bundle filenames using `BundleList.txt`                  |
-| `copy_refine_bundles_resolved.ps1` | PowerShell | Copies selected refine-related bundles and renames them to logical names |
+| Script                             | Language   | Purpose                                                                         |
+| ---------------------------------- | ---------- | ------------------------------------------------------------------------------- |
+| `export_bundle_inventory.ps1`      | PowerShell | Exports all physical `.bundle` files into a CSV inventory                       |
+| `resolve_bundle_names.py`          | Python     | Resolves hashed bundle filenames using `BundleList.txt`                         |
+| `copy_refine_bundles_resolved.ps1` | PowerShell | Copies selected refine-related bundles and renames them to logical bundle names |
 
 ---
 
@@ -35,19 +35,21 @@ These scripts do not patch, modify, bypass, inject into, or manipulate the game 
 
 ### Purpose
 
-Exports a full inventory of `.bundle` files from:
+Exports all `.bundle` files from the client bundle directory into a CSV inventory.
+
+Default source path:
 
 ```text
 C:\RO_SEA\RO_SEAGame\rox_Data\StreamingAssets\Bundle
 ```
 
-The output CSV contains:
+The generated CSV contains:
 
 | Column          | Meaning                       |
 | --------------- | ----------------------------- |
 | `Name`          | Physical hash bundle filename |
 | `Length`        | File size in bytes            |
-| `LastWriteTime` | Last modified time            |
+| `LastWriteTime` | Last modified timestamp       |
 | `FullName`      | Full local file path          |
 
 ### Usage
@@ -76,21 +78,15 @@ bundle-list-detail.csv
 
 ### Purpose
 
-Resolves hashed bundle filenames into logical/original bundle names using `BundleList.txt`.
+Resolves physical hash bundle filenames into logical/original bundle names using `BundleList.txt`.
 
-Expected `BundleList.txt` format:
+Expected `BundleList.txt` row format:
 
 ```text
 logical_bundle_name,hash,size,flag
 ```
 
-Example:
-
-```text
-lua_data_data_4.bundle,68fcb27656aacf5e2ae6ed6d8b6b0473,4300000,0
-```
-
-The script maps:
+Example mapping:
 
 ```text
 68fcb27656aacf5e2ae6ed6d8b6b0473.bundle
@@ -117,15 +113,15 @@ bundle-hash-to-original-mapping.csv
 | Column                   | Meaning                                            |
 | ------------------------ | -------------------------------------------------- |
 | `Resolved`               | Whether the hash was resolved                      |
-| `PhysicalFilename`       | Original hash filename from the Bundle folder      |
+| `PhysicalFilename`       | Hash filename from the bundle folder               |
 | `OriginalName`           | Logical/original bundle name from `BundleList.txt` |
-| `Hash`                   | Normalized hash value                              |
-| `PhysicalSizeBytes`      | Size from filesystem inventory                     |
+| `Hash`                   | Normalized bundle hash                             |
+| `PhysicalSizeBytes`      | File size from filesystem inventory                |
 | `BundleListDeclaredSize` | Size declared by `BundleList.txt`                  |
-| `PhysicalLastWriteTime`  | Local modified time                                |
+| `PhysicalLastWriteTime`  | Local modified timestamp                           |
 | `BundleListLine`         | Line number in `BundleList.txt`                    |
 | `BundleListFlag`         | Flag value from `BundleList.txt`                   |
-| `PhysicalFullPath`       | Full local path of the physical bundle file        |
+| `PhysicalFullPath`       | Full path of the physical bundle file              |
 
 ---
 
@@ -135,9 +131,9 @@ bundle-hash-to-original-mapping.csv
 
 Copies known refine-related bundles from hashed filenames into readable logical filenames.
 
-This is useful when preparing original client files for documentation, review, or upload.
+This script is useful when preparing source bundles for documentation, review, or upload.
 
-### Core Bundles
+### Core Refine Bundles
 
 | Logical Name             | Physical Hash Filename                    |
 | ------------------------ | ----------------------------------------- |
@@ -189,13 +185,13 @@ Optional ZIP output:
 %USERPROFILE%\refine-bundles-resolved.zip
 ```
 
-The script also creates:
+Generated manifest:
 
 ```text
 refine-bundles-copy-manifest.csv
 ```
 
-This manifest records copied files, missing files, source paths, output paths, size, and role.
+The manifest records copied files, missing files, source paths, output paths, size, and role.
 
 ---
 
@@ -264,13 +260,11 @@ Recommended:
 Python 3.10+
 ```
 
-The Python script only uses the standard library.
-
-No external Python packages are required.
+The Python script only uses the standard library. No external Python packages are required.
 
 ---
 
-## Notes on Paths
+## Default Paths
 
 The default client path used by these scripts is:
 
@@ -300,7 +294,7 @@ Desktop
 
 ---
 
-## Limitations
+## Safety and Limitations
 
 These scripts are for static file inventory and documentation only.
 
