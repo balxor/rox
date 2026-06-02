@@ -47,8 +47,7 @@ This is a client-side static analysis repository. It does not include runtime ma
 3. Review `docs/05-refine-mechanic-findings.md` for the refined mechanic summary.
 4. Use `outputs/tables/` for machine-readable data.
 
-## GitHub upload note
+## Reverser
 
-Some original binaries are large. If GitHub rejects browser upload, use Git from command line or Git LFS for files larger than GitHub's normal browser upload limit.
 June 2026. Kenshin | Darkside TH | Odin Valhalla
 https://roxlab.org
