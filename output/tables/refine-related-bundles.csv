@@ -1,0 +1,9 @@
+Category,OriginalName,PhysicalFilename,SizeBytes,SizeMB,LastWriteTime,Reason
+Core data candidate,lua_data_data_1.bundle,efced4fa27e8fd903d46e111c9eb7136.bundle,10485682,10.0,29/05/2026 13:33:22,Generic Lua data table bundle; candidate for data_equip_* tables
+Core data candidate,lua_data_data_2.bundle,17dc68a7b7b5f9dd8ecaa089c5df99f4.bundle,6825607,6.51,29/05/2026 13:33:20,Generic Lua data table bundle; candidate for data_equip_* tables
+Core data candidate,lua_data_data_0.bundle,a3db360b407f1ef2281c8ad534f2a5e7.bundle,4714209,4.5,29/05/2026 13:33:21,Generic Lua data table bundle; candidate for data_equip_* tables
+Core data candidate,lua_data_data_4.bundle,68fcb27656aacf5e2ae6ed6d8b6b0473.bundle,4104887,3.91,14/05/2026 20:42:27,Generic Lua data table bundle; in our prior refine work this is the key candidate for refine tables
+Core data candidate,lua_data_data_3.bundle,78c72862cba7f77b516d4d2bc311a9f5.bundle,1018626,0.97,09/05/2026 18:10:54,Generic Lua data table bundle; candidate for data_equip_* tables
+Core mechanic candidate,lua_lua.bundle,9415f8a18d187b120ecd7ceec91ec38e.bundle,13850066,13.21,29/05/2026 20:56:26,Contains Lua model/scripts; expected source for RefineModel.lua references
+Direct refine-name match,fx_roleeffect_refine.bundle,9e513b5ff76fb847ffac3504394e5082.bundle,34496,0.03,14/05/2026 20:43:39,Logical bundle name contains refine
+Direct refine-name match,shared_assets__ui_unityuitexture_equipment_refinenew.bundle,5c48ed0c319706163abeabddfb8e9451.bundle,13758,0.01,31/10/2025 13:01:42,Logical bundle name contains refine

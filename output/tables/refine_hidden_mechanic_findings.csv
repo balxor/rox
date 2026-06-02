@@ -1,0 +1,7 @@
+candidate,source_table,evidence,assessment
+relegation_* rate family,data_equip_Refine,Fields relegation_upgrade_rate / keepgrade / break / downgrade / material / num exist on 9007 entries. Material-backed rows reproduce the Safe Refinement Rate pattern.,Data-backed hidden/special path. Needs item-name mapping before final naming.
+RefineHighLevel carry-over progress,data_equip_RefineHighLevel,"Each transition has RefineProgressLevel 0-4, RefineProgress=1000 per row. Fails until pity match observed values only when excess progress carries across progress levels.",Important correction to simplified pity reading.
+RefineHighLevel convention differs from rate table,data_equip_RefineHighLevel vs data_equip_Refine,"Rate table uses target refine_lv; HighLevel rows use current refine_lv for transition +n→+(n+1), with refine_lv=15 holding zero cap row.",Needs article correction.
+RefineTicket fixed +5% ticket path,data_equip_RefineTicket,"56 entries. upgrade_rate=5.0, break_rate=0, downgrade_rate=0, upgrade_lv 5-15, item_id and range fields exist.",Ticket/voucher mechanic source found; item-name mapping pending.
+Pray/protection path,data_equip_RefineProtect,"144 entries. refine_lv 4-11 only. pray_upgrade_rate 20/25, keepgrade 75/80, break/downgrade 0.",Already used in Refine Rate; coverage limit remains.
+extraupgrade_rate,data_equip_Refine,extraupgrade_rate=3 exists for target refine_lv 2-15; 0 for 0-1. UI/script reference not yet sufficient to name final behavior.,"Candidate modifier, do not publish as final mechanic yet."

@@ -1,0 +1,6 @@
+table,entries,field_count,fields
+data_equip_Refine,9007,35,InheritZeny | RefineInheritValue | advancedInherit | break_item | break_num | break_rate | downgrade_lv | downgrade_rate | extraupgrade_rate | id | leavebreak_rate | leavedowngrade_rate | leaveupgrade_rate | need_luck | need_zeny | normal_material | normal_num | propertyId | propertyPercent | quality | refineId | refine_lv | relegation_break_rate | relegation_downgrade_rate | relegation_keepgrade_rate | relegation_material | relegation_num | relegation_special_num | relegation_upgrade_rate | return_luck | return_material | return_num | special_material | special_num | upgrade_rate
+data_equip_RefineHighLevel,76,9,RefineProgress | RefineProgressLevel | RefineProgressNoProtectValue | RefineProgressProtectValue1 | RefineProgressProtectValue2 | RefineProgressProtectValue3 | RefineProgressProtectValue4 | id | refine_lv
+data_equip_RefineTicket,56,11,break_rate | downgrade_rate | equip_type | id | item_id | num | range | ticket_sort | ticket_type | upgrade_lv | upgrade_rate
+data_equip_RefineProtect,144,11,equipmentType | extra_upgrade_rate | id | pray_break_rate | pray_downgrade_rate | pray_keepgrade_rate | pray_material | pray_num | pray_upgrade_rate | quality | refine_lv
+data_equip_RefineSlotInherit,21,2,inherit_slot | slot
