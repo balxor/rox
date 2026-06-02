@@ -36,7 +36,6 @@ This documentation focuses on:
 | `05-refine-mechanic-findings.md`     | Summary of refine mechanics found from client-side data                                   |
 | `06-hidden-mechanics.md`             | Hidden or non-obvious refine mechanics found in client data                               |
 | `07-limitations.md`                  | Known limitations, server-side boundaries, and analysis constraints                       |
-| `08-github-publishing-notes.md`      | Notes for publishing, organizing, and maintaining the repository on GitHub                |
 
 ---
 
@@ -52,7 +51,6 @@ Read the documents in this order:
 6. `05-refine-mechanic-findings.md`
 7. `06-hidden-mechanics.md`
 8. `07-limitations.md`
-9. `08-github-publishing-notes.md`
 
 This order follows the actual analysis flow:
 
@@ -139,7 +137,6 @@ The documentation only describes what is visible from client-side static files a
 | `/original-files` | Original binaries, metadata, bundles, and index files used in analysis                  |
 | `/outputs`        | Generated reports, CSV tables, extracted contexts, and reverse engineering outputs      |
 | `/scripts`        | Utility scripts for inventory export, bundle name resolution, and refine bundle copying |
-| `/screenshots`    | Supporting screenshots for documentation or repository explanation                      |
 
 ---
 
@@ -157,31 +154,6 @@ Each technical claim in the docs should be traceable to one of these sources:
 | Technical reports | Markdown files in `/outputs/reports`                 |
 
 When updating these docs, keep the source chain clear.
-
----
-
-## Writing Standard
-
-Use direct, source-based wording.
-
-Prefer:
-
-```text
-The table contains...
-The field appears in...
-The client data shows...
-The extracted row indicates...
-```
-
-Avoid unsupported claims such as:
-
-```text
-The server definitely does...
-This guarantees...
-This proves exploitability...
-```
-
-Client-side evidence should stay within client-side boundaries.
 
 ---
 
