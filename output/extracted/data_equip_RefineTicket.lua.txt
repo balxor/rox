@@ -1,0 +1,1039 @@
+return
+{
+    [1069]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 1069,
+        ["item_id"]= 10416146,
+        ["num"]= 4,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1070]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 1070,
+        ["item_id"]= 10416146,
+        ["num"]= 6,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1071]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 1071,
+        ["item_id"]= 10416146,
+        ["num"]= 2,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1072]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 1072,
+        ["item_id"]= 10416146,
+        ["num"]= 3,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1073]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 1073,
+        ["item_id"]= 10416147,
+        ["num"]= 4,
+        ["range"]= {
+            13,
+            13
+        },
+        ["ticket_sort"]= 14,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 14,
+        ["upgrade_rate"]= 5.0
+    },
+    [1074]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 1074,
+        ["item_id"]= 10416147,
+        ["num"]= 6,
+        ["range"]= {
+            13,
+            13
+        },
+        ["ticket_sort"]= 14,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 14,
+        ["upgrade_rate"]= 5.0
+    },
+    [1075]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 1075,
+        ["item_id"]= 10416147,
+        ["num"]= 2,
+        ["range"]= {
+            13,
+            13
+        },
+        ["ticket_sort"]= 14,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 14,
+        ["upgrade_rate"]= 5.0
+    },
+    [1076]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 1076,
+        ["item_id"]= 10416147,
+        ["num"]= 3,
+        ["range"]= {
+            13,
+            13
+        },
+        ["ticket_sort"]= 14,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 14,
+        ["upgrade_rate"]= 5.0
+    },
+    [1077]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 1077,
+        ["item_id"]= 10416148,
+        ["num"]= 4,
+        ["range"]= {
+            14,
+            14
+        },
+        ["ticket_sort"]= 15,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 15,
+        ["upgrade_rate"]= 5.0
+    },
+    [1078]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 1078,
+        ["item_id"]= 10416148,
+        ["num"]= 6,
+        ["range"]= {
+            14,
+            14
+        },
+        ["ticket_sort"]= 15,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 15,
+        ["upgrade_rate"]= 5.0
+    },
+    [1079]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 1079,
+        ["item_id"]= 10416148,
+        ["num"]= 2,
+        ["range"]= {
+            14,
+            14
+        },
+        ["ticket_sort"]= 15,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 15,
+        ["upgrade_rate"]= 5.0
+    },
+    [1080]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 1080,
+        ["item_id"]= 10416148,
+        ["num"]= 3,
+        ["range"]= {
+            14,
+            14
+        },
+        ["ticket_sort"]= 15,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 15,
+        ["upgrade_rate"]= 5.0
+    },
+    [5000]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5000,
+        ["item_id"]= 10416140,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            4
+        },
+        ["ticket_sort"]= 5,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 5,
+        ["upgrade_rate"]= 5.0
+    },
+    [5001]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5001,
+        ["item_id"]= 10416140,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            4
+        },
+        ["ticket_sort"]= 5,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 5,
+        ["upgrade_rate"]= 5.0
+    },
+    [5002]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5002,
+        ["item_id"]= 10416140,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            4
+        },
+        ["ticket_sort"]= 5,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 5,
+        ["upgrade_rate"]= 5.0
+    },
+    [5003]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5003,
+        ["item_id"]= 10416140,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            4
+        },
+        ["ticket_sort"]= 5,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 5,
+        ["upgrade_rate"]= 5.0
+    },
+    [5004]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5004,
+        ["item_id"]= 10416141,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5005]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5005,
+        ["item_id"]= 10416141,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5006]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5006,
+        ["item_id"]= 10416141,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5007]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5007,
+        ["item_id"]= 10416141,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5008]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5008,
+        ["item_id"]= 10416142,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5009]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5009,
+        ["item_id"]= 10416142,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5010]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5010,
+        ["item_id"]= 10416142,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5011]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5011,
+        ["item_id"]= 10416142,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5012]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5012,
+        ["item_id"]= 10416143,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5013]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5013,
+        ["item_id"]= 10416143,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5014]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5014,
+        ["item_id"]= 10416143,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5015]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5015,
+        ["item_id"]= 10416143,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5101]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5101,
+        ["item_id"]= 10416200,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            9
+        },
+        ["ticket_sort"]= 10,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 10,
+        ["upgrade_rate"]= 5.0
+    },
+    [5102]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5102,
+        ["item_id"]= 10416200,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            9
+        },
+        ["ticket_sort"]= 10,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 10,
+        ["upgrade_rate"]= 5.0
+    },
+    [5103]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5103,
+        ["item_id"]= 10416200,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            9
+        },
+        ["ticket_sort"]= 10,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 10,
+        ["upgrade_rate"]= 5.0
+    },
+    [5104]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5104,
+        ["item_id"]= 10416200,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            9
+        },
+        ["ticket_sort"]= 10,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 10,
+        ["upgrade_rate"]= 5.0
+    },
+    [5105]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5105,
+        ["item_id"]= 10416201,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            10
+        },
+        ["ticket_sort"]= 11,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 11,
+        ["upgrade_rate"]= 5.0
+    },
+    [5106]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5106,
+        ["item_id"]= 10416201,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            10
+        },
+        ["ticket_sort"]= 11,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 11,
+        ["upgrade_rate"]= 5.0
+    },
+    [5107]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5107,
+        ["item_id"]= 10416201,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            10
+        },
+        ["ticket_sort"]= 11,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 11,
+        ["upgrade_rate"]= 5.0
+    },
+    [5108]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5108,
+        ["item_id"]= 10416201,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            10
+        },
+        ["ticket_sort"]= 11,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 11,
+        ["upgrade_rate"]= 5.0
+    },
+    [5109]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5109,
+        ["item_id"]= 10416202,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            11
+        },
+        ["ticket_sort"]= 12,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 12,
+        ["upgrade_rate"]= 5.0
+    },
+    [5110]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5110,
+        ["item_id"]= 10416202,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            11
+        },
+        ["ticket_sort"]= 12,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 12,
+        ["upgrade_rate"]= 5.0
+    },
+    [5111]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5111,
+        ["item_id"]= 10416202,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            11
+        },
+        ["ticket_sort"]= 12,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 12,
+        ["upgrade_rate"]= 5.0
+    },
+    [5112]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5112,
+        ["item_id"]= 10416202,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            11
+        },
+        ["ticket_sort"]= 12,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 12,
+        ["upgrade_rate"]= 5.0
+    },
+    [5113]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5113,
+        ["item_id"]= 10416203,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5114]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5114,
+        ["item_id"]= 10416203,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5115]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5115,
+        ["item_id"]= 10416203,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5116]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5116,
+        ["item_id"]= 10416203,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            5
+        },
+        ["ticket_sort"]= 6,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 6,
+        ["upgrade_rate"]= 5.0
+    },
+    [5117]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5117,
+        ["item_id"]= 10416204,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5118]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5118,
+        ["item_id"]= 10416204,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5119]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5119,
+        ["item_id"]= 10416204,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5120]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5120,
+        ["item_id"]= 10416204,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            6
+        },
+        ["ticket_sort"]= 7,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 7,
+        ["upgrade_rate"]= 5.0
+    },
+    [5121]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5121,
+        ["item_id"]= 10416205,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5122]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5122,
+        ["item_id"]= 10416205,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5123]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5123,
+        ["item_id"]= 10416205,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5124]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5124,
+        ["item_id"]= 10416205,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            7
+        },
+        ["ticket_sort"]= 8,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 8,
+        ["upgrade_rate"]= 5.0
+    },
+    [5125]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 5125,
+        ["item_id"]= 10416206,
+        ["num"]= 4,
+        ["range"]= {
+            0,
+            8
+        },
+        ["ticket_sort"]= 9,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 9,
+        ["upgrade_rate"]= 5.0
+    },
+    [5126]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 5126,
+        ["item_id"]= 10416206,
+        ["num"]= 6,
+        ["range"]= {
+            0,
+            8
+        },
+        ["ticket_sort"]= 9,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 9,
+        ["upgrade_rate"]= 5.0
+    },
+    [5127]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+        },
+        ["id"]= 5127,
+        ["item_id"]= 10416206,
+        ["num"]= 2,
+        ["range"]= {
+            0,
+            8
+        },
+        ["ticket_sort"]= 9,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 9,
+        ["upgrade_rate"]= 5.0
+    },
+    [5128]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            4
+        },
+        ["id"]= 5128,
+        ["item_id"]= 10416206,
+        ["num"]= 3,
+        ["range"]= {
+            0,
+            8
+        },
+        ["ticket_sort"]= 9,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 9,
+        ["upgrade_rate"]= 5.0
+    }
+}

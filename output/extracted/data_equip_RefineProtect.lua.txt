@@ -1,0 +1,2739 @@
+return
+{
+    [1]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 1,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [2]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 2,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [3]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 3,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [4]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 4,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [5]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 5,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [6]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 6,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [7]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 7,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [8]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 8,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 40,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [12]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 12,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [13]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 13,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [14]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 14,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [15]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 15,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 18,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [16]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 16,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [17]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 17,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [18]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 18,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 36,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [19]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 19,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 60,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [23]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 23,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [24]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 24,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [25]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 25,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [26]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 26,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [27]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 27,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [28]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 28,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [29]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 29,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [30]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 30,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 20,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [34]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 34,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 3,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [35]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 35,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 3,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [36]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 36,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [37]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 37,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 9,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [38]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 38,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [39]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 39,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [40]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 40,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 18,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [41]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 41,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 30,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [45]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 45,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [46]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 46,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [47]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 47,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [48]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 48,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [49]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 49,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [50]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 50,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [51]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 51,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [52]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 52,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 20,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [56]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 56,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [57]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 57,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 2,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 5
+    },
+    [58]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 58,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 6
+    },
+    [59]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 59,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 7
+    },
+    [60]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 60,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 8
+    },
+    [61]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 61,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 9
+    },
+    [62]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 62,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 10
+    },
+    [63]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 63,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 20,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 11
+    },
+    [67]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 67,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [68]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 68,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [69]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 69,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [70]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 70,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [71]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 71,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [72]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 72,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [73]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 73,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [74]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 74,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 80,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [78]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 78,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [79]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 79,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [80]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 80,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [81]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 81,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 36,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [82]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 82,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [83]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 83,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [84]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 84,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 72,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [85]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 85,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 120,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [89]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 89,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [90]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 90,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [91]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 91,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [92]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 92,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [93]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 93,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [94]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 94,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [95]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 95,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [96]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 96,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 40,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [100]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 100,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [101]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 101,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 6,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [102]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 102,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [103]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 103,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 18,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [104]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 104,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [105]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 105,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [106]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 106,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 36,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [107]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 107,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 60,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [111]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 111,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [112]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 112,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [113]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 113,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [114]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 114,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [115]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 115,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [116]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 116,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [117]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 117,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [118]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 118,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 40,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [122]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 122,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 4
+    },
+    [123]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 123,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 5
+    },
+    [124]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 124,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 6
+    },
+    [125]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 125,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 7
+    },
+    [126]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 126,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 8
+    },
+    [127]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 127,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 9
+    },
+    [128]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 128,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 10
+    },
+    [129]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 129,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 40,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 2,
+        ["refine_lv"]= 11
+    },
+    [133]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 133,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 4
+    },
+    [134]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 134,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 5
+    },
+    [135]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 135,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 6
+    },
+    [136]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 136,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 7
+    },
+    [137]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 137,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 8
+    },
+    [138]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 138,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 64,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 9
+    },
+    [139]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 139,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 96,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 10
+    },
+    [140]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 140,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 160,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 11
+    },
+    [144]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 144,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 4
+    },
+    [145]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 145,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 5
+    },
+    [146]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 146,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 6
+    },
+    [147]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 147,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 72,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 7
+    },
+    [148]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 148,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 8
+    },
+    [149]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 149,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 96,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 9
+    },
+    [150]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 150,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 144,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 10
+    },
+    [151]= {
+        ["equipmentType"]= {
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            107,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 151,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 240,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 11
+    },
+    [155]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 155,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 4
+    },
+    [156]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 156,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 5
+    },
+    [157]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 157,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 6
+    },
+    [158]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 158,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 7
+    },
+    [159]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 159,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 8
+    },
+    [160]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 160,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 9
+    },
+    [161]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 161,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 10
+    },
+    [162]= {
+        ["equipmentType"]= {
+            201,
+            202,
+            203
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 162,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 80,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 11
+    },
+    [166]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 166,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 4
+    },
+    [167]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 167,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 12,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 5
+    },
+    [168]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 168,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 6
+    },
+    [169]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 169,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 36,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 7
+    },
+    [170]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 170,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 8
+    },
+    [171]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 171,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 9
+    },
+    [172]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 172,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 72,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 10
+    },
+    [173]= {
+        ["equipmentType"]= {
+            105
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 173,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422012,
+        ["pray_num"]= 120,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 11
+    },
+    [177]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 177,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 4
+    },
+    [178]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 178,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 5
+    },
+    [179]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 179,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 6
+    },
+    [180]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 180,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422009,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 7
+    },
+    [181]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 181,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 8
+    },
+    [182]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 182,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 9
+    },
+    [183]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 183,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 10
+    },
+    [184]= {
+        ["equipmentType"]= {
+            401,
+            402,
+            403
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 184,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422013,
+        ["pray_num"]= 80,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 3,
+        ["refine_lv"]= 11
+    },
+    [188]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 188,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 4
+    },
+    [189]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 189,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 8,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 5
+    },
+    [190]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 190,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 6
+    },
+    [191]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 191,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422010,
+        ["pray_num"]= 24,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 7
+    },
+    [192]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 192,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 16,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 8
+    },
+    [193]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 193,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 32,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 9
+    },
+    [194]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 194,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 48,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 10
+    },
+    [195]= {
+        ["equipmentType"]= {
+            501,
+            505
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 195,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 80.0,
+        ["pray_material"]= 10422014,
+        ["pray_num"]= 80,
+        ["pray_upgrade_rate"]= 20.0,
+        ["quality"]= 4,
+        ["refine_lv"]= 11
+    }
+}
