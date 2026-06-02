@@ -49,6 +49,4 @@ This is a client-side static analysis repository. It does not include runtime ma
 
 ## Reverser
 
-June 2026. Kenshin | Darkside TH | Odin Valhalla
-
-https://roxlab.org
+June 2026. Kenshin | Darkside TH | Odin Valhalla | ROXLab.org
