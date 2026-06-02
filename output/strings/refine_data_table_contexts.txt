@@ -1,0 +1,543 @@
+
+===== data_equip_RefineTicket =====
+OFFSET 3057452
+cId"]= {},
+      ["SceneId"]= {},
+      ["TabType1"]= {},
+      ["TabType2"]= {},
+      ["TabType3"]= {},
+      ["type"]= 4
+    }
+  },
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["Id"]= 4108006
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;    data_equip_RefineTicket cY  return
+{
+    [1069]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 1069,
+        ["item_id"]= 10416146,
+        ["num"]= 4,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1070]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 1070,
+        ["item_id"]= 10416146,
+        ["num"]= 6,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1071]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+  
+
+===== data_equip_RefineProtect =====
+OFFSET 3815292
+lExpression_5109",
+        ["Id"]=9,
+        ["eyeColor"]=1,
+        ["faseId"]=5109,
+        ["hasEye"]=0,
+        ["isLock"]=0,
+        ["isMale"]=1,
+        ["isShow"]=1,
+        ["lockTips"]="",
+        ["pictureRoute"]="Img_facialexpression_9",
+        ["timeDisplay"]=0
+    }
+}    data_equip_RefineProtect return
+{
+    [1]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 1,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [2]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 2,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+       
+
+===== data_equip_RefineHighLevel =====
+OFFSET 11211772
+[12] = {
+  ["id"]= 12,
+  ["Name"]= "头饰中下段"
+},
+[13] = {
+  ["id"]= 13,
+  ["Name"]= "头饰上中下段"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["Name"]= "主手武器",
+  ["slot"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;     data_equip_RefineHighLevel  {  return
+{
+    [1000000]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 0,
+        ["RefineProgressNoProtectValue"]= "1667,1667",
+        ["RefineProgressProtectValue1"]= "1667,1667",
+        ["RefineProgressProtectValue2"]= "0,0",
+        ["RefineProgressProtectValue3"]= "1667,1667",
+        ["RefineProgressProtectValue4"]= "0,0",
+        ["id"]= 1000000,
+        ["refine_lv"]= 0
+    },
+    [1000001]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 1,
+        ["RefineProgressNoProtectValue"]= "834,834",
+        ["RefineProgressProtectValue1"]= "834,834",
+        ["RefineProgressProtectValue2"]= "0,0",
+        ["RefineProgressProtectValue3"]= "834,834",
+        ["RefineProgressProtectValue4"]= "0,0",
+        ["id"]= 1000001,
+        ["refine_lv"]= 0
+    },
+    [1000002]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 2,
+        ["RefineProgressNoProtectValue"]= "55
+
+===== data_equip_RefineSlotInherit =====
+OFFSET 36982020
+refineEffect15"refineEffect15_cy-  zD5  ?8@
+:6refineEffect14"refineEffect14_cy-  zD533?8@
+:6refineEffect11"refineEffect11_cy-  zD5̌?8@
+:6refineEffect13"refineEffect13_cy-  zD5ff?8@
+:6refineEffect12"refineEffect12_cy-  zD5?8@       data_equip_RefineSlotInherit#  local table= {
+[1] = {},
+[2] = {
+  ["inherit_slot"]= 101,
+  ["slot"]= 101
+},
+[3] = {
+  ["inherit_slot"]= 102,
+  ["slot"]= 102
+},
+[4] = {
+  ["inherit_slot"]= 103,
+  ["slot"]= 103
+},
+[5] = {
+  ["inherit_slot"]= 104,
+  ["slot"]= 104
+},
+[6] = {
+  ["inherit_slot"]= 105,
+  ["slot"]= 105
+},
+[7] = {
+  ["inherit_slot"]= 106,
+  ["slot"]= 106
+},
+[8] = {
+  ["inherit_slot"]= 107,
+  ["slot"]= 107
+},
+[9] = {
+  ["inherit_slot"]= 201,
+  ["slot"]= 201
+},
+[10] = {
+  ["inherit_slot"]= 301,
+  ["slot"]= 301
+},
+[11] = {
+  ["inherit_slot"]= 302,
+  ["slot"]= 302
+},
+[12] = {
+  ["inherit_slot"]= 303,
+  ["slot"]= 303
+},
+[13] = {
+  ["inherit_slot"]= 304,
+  ["slot"]= 304
+},
+[14] = {
+  ["inherit_slot"]= 305,
+  ["slot"]= 305
+},
+[15] = {
+  ["inherit_slot"]= 306,
+  ["slot"]= 306
+},
+[16] = {
+  ["inherit_slot"]= 307,
+  ["slot"]= 307
+},
+[17] = {
+  ["inherit_slot"]= 308,
+  ["slot"]= 308
+},
+[18] = {
+  ["inherit_slot"]= 401,
+ 
+
+===== data_equip_Refine =====
+OFFSET 3057452
+cId"]= {},
+      ["SceneId"]= {},
+      ["TabType1"]= {},
+      ["TabType2"]= {},
+      ["TabType3"]= {},
+      ["type"]= 4
+    }
+  },
+  ["ChannelId"]= {
+    1,
+    9
+  },
+  ["Id"]= 4108006
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;    data_equip_RefineTicket cY  return
+{
+    [1069]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            1
+        },
+        ["id"]= 1069,
+        ["item_id"]= 10416146,
+        ["num"]= 4,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1070]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            3
+        },
+        ["id"]= 1070,
+        ["item_id"]= 10416146,
+        ["num"]= 6,
+        ["range"]= {
+            12,
+            12
+        },
+        ["ticket_sort"]= 13,
+        ["ticket_type"]= 1,
+        ["upgrade_lv"]= 13,
+        ["upgrade_rate"]= 5.0
+    },
+    [1071]= {
+        ["break_rate"]= 0.0,
+        ["downgrade_rate"]= 0.0,
+        ["equip_type"]= {
+            2,
+            5,
+            6
+  
+OFFSET 3815292
+lExpression_5109",
+        ["Id"]=9,
+        ["eyeColor"]=1,
+        ["faseId"]=5109,
+        ["hasEye"]=0,
+        ["isLock"]=0,
+        ["isMale"]=1,
+        ["isShow"]=1,
+        ["lockTips"]="",
+        ["pictureRoute"]="Img_facialexpression_9",
+        ["timeDisplay"]=0
+    }
+}    data_equip_RefineProtect return
+{
+    [1]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 1,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+        ["refine_lv"]= 4
+    },
+    [2]= {
+        ["equipmentType"]= {
+            101,
+            102,
+            103,
+            104,
+            108,
+            109
+        },
+        ["extra_upgrade_rate"]= 0.0,
+        ["id"]= 2,
+        ["pray_break_rate"]= 0.0,
+        ["pray_downgrade_rate"]= 0.0,
+        ["pray_keepgrade_rate"]= 75.0,
+        ["pray_material"]= 10422008,
+        ["pray_num"]= 4,
+        ["pray_upgrade_rate"]= 25.0,
+        ["quality"]= 1,
+       
+OFFSET 11211772
+[12] = {
+  ["id"]= 12,
+  ["Name"]= "头饰中下段"
+},
+[13] = {
+  ["id"]= 13,
+  ["Name"]= "头饰上中下段"
+}
+}
+local baseTable={
+  ["id"]= 1,
+  ["Name"]= "主手武器",
+  ["slot"]= 0
+}
+for _,v in pairs(table) do
+  setmetatable(v,{__index  = baseTable});
+end
+return table;     data_equip_RefineHighLevel  {  return
+{
+    [1000000]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 0,
+        ["RefineProgressNoProtectValue"]= "1667,1667",
+        ["RefineProgressProtectValue1"]= "1667,1667",
+        ["RefineProgressProtectValue2"]= "0,0",
+        ["RefineProgressProtectValue3"]= "1667,1667",
+        ["RefineProgressProtectValue4"]= "0,0",
+        ["id"]= 1000000,
+        ["refine_lv"]= 0
+    },
+    [1000001]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 1,
+        ["RefineProgressNoProtectValue"]= "834,834",
+        ["RefineProgressProtectValue1"]= "834,834",
+        ["RefineProgressProtectValue2"]= "0,0",
+        ["RefineProgressProtectValue3"]= "834,834",
+        ["RefineProgressProtectValue4"]= "0,0",
+        ["id"]= 1000001,
+        ["refine_lv"]= 0
+    },
+    [1000002]= {
+        ["RefineProgress"]= 1000,
+        ["RefineProgressLevel"]= 2,
+        ["RefineProgressNoProtectValue"]= "55
+OFFSET 36982020
+refineEffect15"refineEffect15_cy-  zD5  ?8@
+:6refineEffect14"refineEffect14_cy-  zD533?8@
+:6refineEffect11"refineEffect11_cy-  zD5̌?8@
+:6refineEffect13"refineEffect13_cy-  zD5ff?8@
+:6refineEffect12"refineEffect12_cy-  zD5?8@       data_equip_RefineSlotInherit#  local table= {
+[1] = {},
+[2] = {
+  ["inherit_slot"]= 101,
+  ["slot"]= 101
+},
+[3] = {
+  ["inherit_slot"]= 102,
+  ["slot"]= 102
+},
+[4] = {
+  ["inherit_slot"]= 103,
+  ["slot"]= 103
+},
+[5] = {
+  ["inherit_slot"]= 104,
+  ["slot"]= 104
+},
+[6] = {
+  ["inherit_slot"]= 105,
+  ["slot"]= 105
+},
+[7] = {
+  ["inherit_slot"]= 106,
+  ["slot"]= 106
+},
+[8] = {
+  ["inherit_slot"]= 107,
+  ["slot"]= 107
+},
+[9] = {
+  ["inherit_slot"]= 201,
+  ["slot"]= 201
+},
+[10] = {
+  ["inherit_slot"]= 301,
+  ["slot"]= 301
+},
+[11] = {
+  ["inherit_slot"]= 302,
+  ["slot"]= 302
+},
+[12] = {
+  ["inherit_slot"]= 303,
+  ["slot"]= 303
+},
+[13] = {
+  ["inherit_slot"]= 304,
+  ["slot"]= 304
+},
+[14] = {
+  ["inherit_slot"]= 305,
+  ["slot"]= 305
+},
+[15] = {
+  ["inherit_slot"]= 306,
+  ["slot"]= 306
+},
+[16] = {
+  ["inherit_slot"]= 307,
+  ["slot"]= 307
+},
+[17] = {
+  ["inherit_slot"]= 308,
+  ["slot"]= 308
+},
+[18] = {
+  ["inherit_slot"]= 401,
+ 
+OFFSET 42786964
+]= 10202242,
+        ["outBlessingImprintNum"]= 9000,
+        ["outPutItemID"]= 10424487,
+        ["outPutItemNum"]= 1968,
+        ["priority"]= 4,
+        ["priorityWithinQuality"]= 706,
+        ["shadowWeaponID"]= 1314992,
+        ["shadowWeaponName"]= "ShadowEquip2_314_1"
+    }
+}       data_equip_Refine    return
+{
+    [1]= {
+        ["InheritZeny"]= 0,
+        ["RefineInheritValue"]= 0,
+        ["advancedInherit"]= 5,
+        ["break_item"]= {
+            0
+        },
+        ["break_num"]= {
+            0
+        },
+        ["break_rate"]= 0.0,
+        ["downgrade_lv"]= 0,
+        ["downgrade_rate"]= 0.0,
+        ["extraupgrade_rate"]= 0,
+        ["id"]= 1,
+        ["leavebreak_rate"]= {
+            0.0,
+            0.0,
+            0.0
+        },
+        ["leavedowngrade_rate"]= {
+            0.0,
+            0.0,
+            0.0
+        },
+        ["leaveupgrade_rate"]= {
+            0.0,
+            0.0,
+            0.0
+        },
+        ["need_luck"]= 0,
+        ["need_zeny"]= 0,
+        ["normal_material"]= {
+            0
+        },
+        ["normal_num"]= {
+            0
+        },
+        ["propertyId"]= {
+            50,
+            315
+        },
+        ["propertyPercent"]= {
+            0.0,
+            
