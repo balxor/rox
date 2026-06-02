@@ -235,40 +235,6 @@ If files are replaced with newer client versions, update the manifest and docume
 
 ---
 
-## Publishing Notes
-
-Some files in this folder may be large binary files.
-
-For public repositories:
-
-* consider using Git LFS for large files;
-* consider publishing documentation and generated outputs only;
-* avoid uploading files that violate platform rules or third-party terms;
-* keep original binary files in a private research archive when needed.
-
-Recommended public-safe structure:
-
-```text
-docs/
-outputs/
-scripts/
-FILE_MANIFEST.csv
-README.md
-```
-
-Recommended private/research structure:
-
-```text
-original-files/
-docs/
-outputs/
-scripts/
-FILE_MANIFEST.csv
-README.md
-```
-
----
-
 ## Limitations
 
 These original files support client-side static analysis only.
