@@ -10,7 +10,7 @@ The goal is to preserve the research trail in a readable form:
 4. Extract and inspect Lua/data bundles.
 5. Map refine tables to readable mechanics: regular rate, pray/protection, safe/relegation, ticket path, and pity progress.
 
-## Repository layout
+## Repository Layout
 
 | Path | Contents |
 |---|---|
@@ -25,7 +25,7 @@ The goal is to preserve the research trail in a readable form:
 | `docs/` | Human-readable documentation |
 | `scripts/` | Reproducible helper scripts |
 
-## Primary findings
+## Primary Findings
 
 | Mechanic | Source |
 |---|---|
@@ -36,11 +36,19 @@ The goal is to preserve the research trail in a readable form:
 | Ticket / voucher refine path | `data_equip_RefineTicket` |
 | Refine slot inheritance | `data_equip_RefineSlotInherit` |
 
-## Important scope boundary
+## Important and Boundary
 
-This is a client-side static analysis repository. It does not include runtime manipulation, patching, bypass instructions, or server-side claims. Client data can expose tables, UI/model references, and protocol surfaces. Server-authoritative behavior must be treated as out of scope unless separately observed and documented.
+This repository contains client-side static analysis notes and extracted data references for documentation and research purposes.
 
-## Quick start
+It does not include runtime manipulation, client patching, bypass instructions, cheat logic, exploit instructions, credential extraction, or server-side claims. Client-side data can expose tables, UI/model references, metadata, protocol surfaces, and configuration structures. Server-authoritative behavior is outside the scope of this repository.
+
+All materials are provided for educational and analytical purposes only.
+
+The maintainer of this repository is not responsible for any misuse of these files, notes, scripts, extracted data, or analysis results. Any attempt to use this material for cheating, exploiting game systems, manipulating client behavior, bypassing protections, violating terms of service, or harming other players is solely the responsibility of the person performing those actions.
+
+Do not use this repository as a guide for exploitation. Use it only to understand client-side data structure, table mapping, and static analysis methodology.
+
+## Quick Start
 
 1. Open `docs/00-overview.md`.
 2. Review `docs/02-bundle-hash-resolution.md` to understand how hashed bundle names were resolved.
