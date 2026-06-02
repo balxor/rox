@@ -1,6 +1,6 @@
 # ROX Refine Reverse Engineering Notes
 
-This repository documents a client-side static reverse engineering pass focused on the refine system in Ragnarok X / ROX.
+This repository documents a client-side static reverse engineering pass focused on the refine system in ROX.
 
 The goal is to preserve the research trail in a readable form:
 
@@ -50,4 +50,5 @@ This is a client-side static analysis repository. It does not include runtime ma
 ## Reverser
 
 June 2026. Kenshin | Darkside TH | Odin Valhalla
+
 https://roxlab.org
