@@ -19,7 +19,7 @@ original-files
 → docs
 ```
 
-The files in this folder are not original client files. They are generated reports, extracted tables, string contexts, inventories, summaries, and intermediate analysis artifacts.
+The files in this folder are not original client files. They are generated reports, extracted tables, string contexts, inventories, summaries, IL2CPP dump validation files, and intermediate analysis artifacts.
 
 ---
 
@@ -31,6 +31,7 @@ Recommended structure:
 outputs/
 ├─ articles/ ** hidden **
 ├─ extracted/
+├─ il2cppdump/
 ├─ reports/
 ├─ strings/
 └─ tables/
@@ -144,27 +145,88 @@ Keep derived values, summaries, and mechanic interpretation in:
 
 ---
 
-## 5. `/articles`
+## 5. `/il2cppdump`
+
+This folder contains generated outputs from Il2CppDumper validation.
+
+These files are derived from the IL2CPP dump result created from:
+
+```text
+GameAssembly.dll
+global-metadata.dat
+```
+
+The purpose of this folder is to document the client-side IL2CPP surface related to refine, RNG, request/response messages, result enums, error IDs, and metadata strings.
+
+Expected files:
+
+| File                                         | Description                                                                   |
+| -------------------------------------------- | ----------------------------------------------------------------------------- |
+| `il2cppdump_refine_rng_validation_report.md` | Validation report for refine/RNG-related IL2CPP dump surface                  |
+| `il2cppdump_refine_rng_method_surface.csv`   | Method-level surface extracted from Il2CppDumper output                       |
+| `il2cppdump_refine_rng_metadata_surface.csv` | Metadata/type/field surface related to refine and RNG keywords                |
+| `il2cppdump_refine_rng_string_surface.csv`   | String literal surface related to refine, RNG, protocol, and runtime keywords |
+
+### What This Folder Supports
+
+The `/outputs/il2cppdump` folder helps document:
+
+* refine request and response identifiers;
+* refine-related protocol surface;
+* refine result enum visibility;
+* equipment refine error IDs;
+* standard runtime RNG library symbols;
+* absence of a clearly visible refine-specific RNG algorithm in the client dump.
+
+### What This Folder Does Not Prove
+
+The Il2CppDumper outputs do not prove:
+
+* server-side RNG algorithm;
+* server-authoritative roll logic;
+* runtime state changes;
+* exploitability;
+* bypass feasibility;
+* live server validation behavior.
+
+The IL2CPP dump helps validate client-side metadata and symbol surfaces. It does not replace server-side evidence.
+
+### Important Reading Note
+
+If a standard runtime RNG class appears in metadata or strings, such as `System.Random`, `RandomNumberGenerator`, or `RNGCryptoServiceProvider`, it should not automatically be interpreted as the RNG used for refine.
+
+For refine RNG analysis, the correct interpretation status is:
+
+```text
+No refine-specific RNG algorithm was identified from the client-side IL2CPP dump surface.
+```
+
+The visible client-side evidence supports protocol mapping and metadata surface analysis, not server RNG reconstruction.
+
+---
+
+## 6. `/articles`
 
 This folder may contain generated HTML article drafts or rendered documentation.
 
 Article drafts should be treated as presentation outputs, not raw source evidence.
 
-If an article makes a technical claim, the claim should be traceable back to `/outputs/extracted`, `/outputs/tables`, `/outputs/reports`, or `/original-files`.
+If an article makes a technical claim, the claim should be traceable back to `/outputs/extracted`, `/outputs/tables`, `/outputs/il2cppdump`, `/outputs/reports`, or `/original-files`.
 
 ---
 
 ## Output Categories
 
-The generated files can be grouped into five analysis layers.
+The generated files can be grouped into six analysis layers.
 
-| Layer            | Output Type                                               | Example                                     |
-| ---------------- | --------------------------------------------------------- | ------------------------------------------- |
-| Bundle mapping   | Hash to logical name resolution                           | `bundle-hash-to-original-mapping.csv`       |
-| Surface mapping  | Binary, metadata, script, and keyword surface             | `refine_il2cpp_native_metadata_surface.csv` |
-| Raw extraction   | Extracted Lua table files                                 | `data_equip_Refine.lua`                     |
-| Table summaries  | Refine table inventory and field summaries                | `refine_table_inventory.csv`                |
-| Mechanic mapping | Rate, pity, ticket, protection, hidden mechanic summaries | `refine_hidden_mechanic_findings.csv`       |
+| Layer                  | Output Type                                               | Example                                      |
+| ---------------------- | --------------------------------------------------------- | -------------------------------------------- |
+| Bundle mapping         | Hash to logical name resolution                           | `bundle-hash-to-original-mapping.csv`        |
+| Surface mapping        | Binary, metadata, script, and keyword surface             | `refine_il2cpp_native_metadata_surface.csv`  |
+| IL2CPP dump validation | Method, metadata, and string surface from Il2CppDumper    | `il2cppdump_refine_rng_validation_report.md` |
+| Raw extraction         | Extracted Lua table files                                 | `data_equip_Refine.lua`                      |
+| Table summaries        | Refine table inventory and field summaries                | `refine_table_inventory.csv`                 |
+| Mechanic mapping       | Rate, pity, ticket, protection, hidden mechanic summaries | `refine_hidden_mechanic_findings.csv`        |
 
 ---
 
@@ -172,17 +234,19 @@ The generated files can be grouped into five analysis layers.
 
 The output files document several refine-related findings.
 
-| Finding                                                     | Main Output                                           |
-| ----------------------------------------------------------- | ----------------------------------------------------- |
-| Bundle hash names can be resolved through `BundleList.txt`  | `bundle-hash-resolution-report-resolved.md`           |
-| `lua_lua.bundle` contains refine model/script references    | `refine_full_bundle_keyword_index.csv`                |
-| `lua_data_data_4.bundle` contains core refine data tables   | `data_equip_Refine.lua`, `refine_table_inventory.csv` |
-| Regular refine rate is table-driven                         | `refine_regular_relegation_rate_summary.csv`          |
-| Safe/relegation refinement exists as a separate rate family | `refine_relegation_safe_rate_candidates.csv`          |
-| Pray/protection refinement is a separate path               | `refine_protect_pray_summary.csv`                     |
-| Pity progress uses multiple progress levels and carry-over  | `refine_highlevel_pity_carryover_summary.csv`         |
-| Refine ticket path exists as its own table                  | `refine_ticket_summary.csv`                           |
-| Some fields remain candidate mechanics                      | `refine_hidden_mechanic_findings.csv`                 |
+| Finding                                                                           | Main Output                                           |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Bundle hash names can be resolved through `BundleList.txt`                        | `bundle-hash-resolution-report-resolved.md`           |
+| `lua_lua.bundle` contains refine model/script references                          | `refine_full_bundle_keyword_index.csv`                |
+| `lua_data_data_4.bundle` contains core refine data tables                         | `data_equip_Refine.lua`, `refine_table_inventory.csv` |
+| Regular refine rate is table-driven                                               | `refine_regular_relegation_rate_summary.csv`          |
+| Safe/relegation refinement exists as a separate rate family                       | `refine_relegation_safe_rate_candidates.csv`          |
+| Pray/protection refinement is a separate path                                     | `refine_protect_pray_summary.csv`                     |
+| Pity progress uses multiple progress levels and carry-over                        | `refine_highlevel_pity_carryover_summary.csv`         |
+| Refine ticket path exists as its own table                                        | `refine_ticket_summary.csv`                           |
+| Some fields remain candidate mechanics                                            | `refine_hidden_mechanic_findings.csv`                 |
+| Refine protocol and result surfaces are visible in IL2CPP dump output             | `il2cppdump_refine_rng_validation_report.md`          |
+| Refine-specific RNG algorithm is not visible from client-side IL2CPP dump surface | `il2cppdump_refine_rng_validation_report.md`          |
 
 ---
 
@@ -195,6 +259,11 @@ Recommended trace chain:
 ```text
 GameAssembly.dll
 → global-metadata.dat
+→ Il2CppDumper output
+→ /outputs/il2cppdump
+
+GameAssembly.dll
+→ global-metadata.dat
 → BundleList.txt
 → lua_lua.bundle
 → lua_data_data_*.bundle
@@ -204,7 +273,7 @@ GameAssembly.dll
 → documentation
 ```
 
-For refine-specific analysis:
+For refine-specific data analysis:
 
 ```text
 lua_data_data_4.bundle
@@ -214,6 +283,18 @@ lua_data_data_4.bundle
 → data_equip_RefineTicket.lua
 → data_equip_RefineSlotInherit.lua
 → mechanic summaries
+```
+
+For refine IL2CPP surface analysis:
+
+```text
+GameAssembly.dll
+→ global-metadata.dat
+→ Il2CppDumper output
+→ method surface
+→ metadata surface
+→ string surface
+→ RNG validation report
 ```
 
 ---
@@ -226,9 +307,10 @@ When regenerating outputs:
 2. Run the relevant script from `/scripts`.
 3. Save raw extracted Lua tables into `/outputs/extracted`.
 4. Save derived CSV summaries into `/outputs/tables`.
-5. Save narrative technical reports into `/outputs/reports`.
-6. Update documentation if the interpretation changes.
-7. Note any version or source file changes in the repository changelog or commit message.
+5. Save Il2CppDumper validation outputs into `/outputs/il2cppdump`.
+6. Save narrative technical reports into `/outputs/reports`.
+7. Update documentation if the interpretation changes.
+8. Note any version or source file changes in the repository changelog or commit message.
 
 ---
 
@@ -273,6 +355,21 @@ Use consistent status labels when documenting outputs.
 
 ---
 
+## IL2CPP Dump Interpretation Labels
+
+Use these labels for `/outputs/il2cppdump` reports and CSV files.
+
+| Label                  | Meaning                                                                         |
+| ---------------------- | ------------------------------------------------------------------------------- |
+| `SURFACE_VISIBLE`      | Symbol, method, enum, string, or metadata surface is visible in dump output     |
+| `STANDARD_LIBRARY`     | Symbol belongs to standard runtime library, not necessarily game-specific logic |
+| `NO_DIRECT_LINK`       | Symbol exists, but no direct link to refine mechanic was found                  |
+| `NOT_FOUND`            | Expected refine/RNG-specific symbol was not found in dump output                |
+| `CLIENT_SURFACE_ONLY`  | Evidence describes client-side visibility only                                  |
+| `SERVER_SIDE_BOUNDARY` | Behavior cannot be concluded from client-side dump output                       |
+
+---
+
 ## Limitations
 
 Outputs in this folder are generated from client-side static analysis.
@@ -285,11 +382,13 @@ They can support claims about:
 * Lua/model references;
 * UI/controller references;
 * metadata symbol surfaces;
-* extracted rate/progress values.
+* extracted rate/progress values;
+* IL2CPP dump method, metadata, enum, and string surfaces.
 
 They do not prove:
 
 * server-side roll logic;
+* server-side RNG algorithm;
 * server-authoritative behavior;
 * runtime memory behavior;
 * live network validation;
@@ -323,7 +422,7 @@ The maintainer is not responsible for misuse of these outputs, extracted data, r
 
 Any attempt to use this material for cheating, exploitation, runtime manipulation, bypassing protections, violating terms of service, or harming other players is solely the responsibility of the person performing those actions.
 
-Use these outputs only to understand static file structure, table mapping, and client-side data documentation.
+Use these outputs only to understand static file structure, table mapping, IL2CPP surface mapping, and client-side data documentation.
 
 ---
 
