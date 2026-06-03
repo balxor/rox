@@ -58,7 +58,6 @@ Read the documents in this order:
 7. `06-hidden-mechanics.md`
 8. `08-il2cppdump-validation.md`
 9. `07-limitations.md`
-10. `09-github-publishing-notes.md`
 
 This order follows the actual analysis flow:
 
