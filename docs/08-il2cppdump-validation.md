@@ -1,9 +1,5 @@
 # IL2CPP Dump Validation
 
-Author: **Kenshin | Darkside TH | Odin Valhalla | ROXLab Researcher**
-
----
-
 ## Purpose
 
 This document explains how the Il2CppDumper output was used to validate the client-side IL2CPP surface related to the refine system.
