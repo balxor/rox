@@ -56,8 +56,8 @@ Read the documents in this order:
 5. `04-refine-table-map.md`
 6. `05-refine-mechanic-findings.md`
 7. `06-hidden-mechanics.md`
-8. `08-il2cppdump-validation.md`
-9. `07-limitations.md`
+8. `07-limitations.md`
+9. `08-il2cppdump-validation.md`
 
 This order follows the actual analysis flow:
 
