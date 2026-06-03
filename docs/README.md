@@ -40,7 +40,6 @@ This documentation focuses on:
 | `06-hidden-mechanics.md`             | Hidden or non-obvious refine mechanics found in client data                                               |
 | `07-limitations.md`                  | Known limitations, server-side boundaries, and analysis constraints                                       |
 | `08-il2cppdump-validation.md`        | IL2CPP dump validation notes for refine protocol, result enum, metadata, and RNG surface                  |
-| `09-github-publishing-notes.md`      | Notes for publishing, organizing, and maintaining the repository on GitHub                                |
 
 If some documents are not included in the repository yet, keep this index as the target structure.
 
@@ -201,33 +200,6 @@ BundleList.txt
 → /outputs/tables/*.csv
 → /docs/*.md
 ```
-
----
-
-## Writing Standard
-
-Use direct, source-based wording.
-
-Prefer:
-
-```text
-The table contains...
-The field appears in...
-The client data shows...
-The extracted row indicates...
-The IL2CPP dump surface includes...
-```
-
-Avoid unsupported claims such as:
-
-```text
-The server definitely does...
-This guarantees...
-This proves exploitability...
-This confirms the server RNG algorithm...
-```
-
-Client-side evidence should stay within client-side boundaries.
 
 ---
 
